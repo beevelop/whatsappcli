@@ -6,7 +6,7 @@ import re
 def memReport():
     # Get process info
     ps = subprocess.Popen(['ps', '-caxm', '-orss,comm'], stdout=subprocess.PIPE).communicate()[0]
-    vm = subprocess.Popen(['vm_stat'], stdout=subprocess.PIPE).communicate()[0]
+    vm = subprocess.Popen(['vmstat'], stdout=subprocess.PIPE).communicate()[0]
 
     # Iterate processes
     processLines = ps.split('\n')
