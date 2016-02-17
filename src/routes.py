@@ -1,7 +1,7 @@
 from yowsup.layers.protocol_messages.protocolentities import TextMessageProtocolEntity
-from src.utils.memReport import memReport
+from utils.memReport import memReport
 import subprocess
-from src.utils.media_downloader import ImageSender, VideoSender, YoutubeSender, UrlPrintSender, GoogleTtsSender
+from utils.media_downloader import ImageSender, VideoSender, YoutubeSender, UrlPrintSender, GoogleTtsSender
 import os
 
 class MediaViews():
