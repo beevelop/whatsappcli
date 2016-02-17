@@ -29,7 +29,7 @@
 auth = ("login", "pw")
 
 # Path to download the media requests
-media_storage_path = "/tmp/"
+media_storage_path = "/tmp/whatsapp"
 
 # Logging settings
 import logging
